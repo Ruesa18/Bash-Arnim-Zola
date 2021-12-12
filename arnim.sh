@@ -8,39 +8,39 @@ maxRuns=5
 zolaOne() {
     if [ "$myrows" -lt 200 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-100_0.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-100_0.txt
     elif [ "$myrows" -ge 200 ] && [ "$myrows" -lt 300 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-200_0.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-200_0.txt
     elif [ "$myrows" -ge 300 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-300_0.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-300_0.txt
     fi
 }
 
 zolaTwo() {
     if [ "$myrows" -lt 200 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-100_1.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-100_1.txt
     elif [ "$myrows" -ge 200 ] && [ "$myrows" -lt 300 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-200_1.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-200_1.txt
     elif [ "$myrows" -ge 300 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-300_1.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-300_1.txt
     fi
 }
 
 zolaThree() {
     if [ "$myrows" -lt 200 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-100_2.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-100_2.txt
     elif [ "$myrows" -ge 200 ] && [ "$myrows" -lt 300 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-200_2.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-200_2.txt
     elif [ "$myrows" -ge 300 ]
     then
-        cat arnim-files/frames/arnim-zola-ansi-300_2.txt
+        cat /bin/arnim-files/frames/arnim-zola-ansi-300_2.txt
     fi
 }
 
