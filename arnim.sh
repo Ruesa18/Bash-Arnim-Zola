@@ -6,8 +6,6 @@ myrows=$(tput cols)
 maxRuns=5
 
 zolaOne() {
-    clear
-
     if [ "$myrows" -lt 200 ]
     then
         cat arnim-files/frames/arnim-zola-ansi-100_0.txt
@@ -21,8 +19,6 @@ zolaOne() {
 }
 
 zolaTwo() {
-    clear
-
     if [ "$myrows" -lt 200 ]
     then
         cat arnim-files/frames/arnim-zola-ansi-100_1.txt
@@ -36,8 +32,6 @@ zolaTwo() {
 }
 
 zolaThree() {
-    clear
-
     if [ "$myrows" -lt 200 ]
     then
         cat arnim-files/frames/arnim-zola-ansi-100_2.txt
@@ -52,6 +46,7 @@ zolaThree() {
 
 ProjectInsight() {
     counter="0"
+    clear
 
     while [ "$counter" -lt "$maxRuns" ]
     do
